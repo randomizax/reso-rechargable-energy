@@ -2,15 +2,19 @@
 // @id             iitc-plugin-reso-rechargable-energy@randomizax
 // @name           IITC plugin: reso rechargable xm in portal detail
 // @category       Info
-// @version        0.1.1.20160506.70127
+// @version        1.0.0.20181124.13632
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      https://rawgit.com/randomizax/reso-rechargable-energy/latest/reso-rechargable-energy.meta.js
 // @downloadURL    https://rawgit.com/randomizax/reso-rechargable-energy/latest/reso-rechargable-energy.user.js
-// @description    [randomizax-2016-05-06-070127] Show each resonator's missing energy in portal details.
+// @description    [randomizax-2018-11-24-013632] Show each resonator's missing energy in portal details.
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*
+// @include        https://intel.ingress.com/intel*
+// @include        http://intel.ingress.com/intel*
 // @match          https://www.ingress.com/intel*
 // @match          http://www.ingress.com/intel*
+// @match          https://intel.ingress.com/intel*
+// @match          http://intel.ingress.com/intel*
 // @grant          none
 // ==/UserScript==
 
@@ -22,7 +26,7 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
 //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
 //(leaving them in place might break the 'About IITC' page or break update checks)
 // plugin_info.buildName = 'randomizax';
-// plugin_info.dateTimeVersion = '20160506.70127';
+// plugin_info.dateTimeVersion = '20181124.13632';
 // plugin_info.pluginId = 'reso-rechargable-energy';
 //END PLUGIN AUTHORS NOTE
 
